@@ -19,6 +19,11 @@
 		76513D7E19A30DE30070E8E9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76513D6619A30DE30070E8E9 /* UIKit.framework */; };
 		76513D8619A30DE30070E8E9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 76513D8419A30DE30070E8E9 /* InfoPlist.strings */; };
 		76513D8819A30DE30070E8E9 /* ACSegmentedViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 76513D8719A30DE30070E8E9 /* ACSegmentedViewControllerTests.m */; };
+		76513D9319A30E680070E8E9 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76513D9219A30E680070E8E9 /* RootViewController.m */; };
+		76513D9919A30F1C0070E8E9 /* ACSegmentedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76513D9819A30F1C0070E8E9 /* ACSegmentedViewController.m */; };
+		76513D9D19A316CC0070E8E9 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76513D9C19A316CC0070E8E9 /* FirstViewController.m */; };
+		76513DA019A316D50070E8E9 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76513D9F19A316D50070E8E9 /* SecondViewController.m */; };
+		76513DA319A316F80070E8E9 /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76513DA219A316F80070E8E9 /* ThirdViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +53,16 @@
 		76513D8319A30DE30070E8E9 /* ACSegmentedViewControllerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ACSegmentedViewControllerTests-Info.plist"; sourceTree = "<group>"; };
 		76513D8519A30DE30070E8E9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		76513D8719A30DE30070E8E9 /* ACSegmentedViewControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ACSegmentedViewControllerTests.m; sourceTree = "<group>"; };
+		76513D9119A30E680070E8E9 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		76513D9219A30E680070E8E9 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		76513D9719A30F1C0070E8E9 /* ACSegmentedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ACSegmentedViewController.h; sourceTree = "<group>"; };
+		76513D9819A30F1C0070E8E9 /* ACSegmentedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ACSegmentedViewController.m; sourceTree = "<group>"; };
+		76513D9B19A316CC0070E8E9 /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		76513D9C19A316CC0070E8E9 /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		76513D9E19A316D50070E8E9 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		76513D9F19A316D50070E8E9 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		76513DA119A316F80070E8E9 /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
+		76513DA219A316F80070E8E9 /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,8 +122,12 @@
 		76513D6819A30DE30070E8E9 /* ACSegmentedViewController */ = {
 			isa = PBXGroup;
 			children = (
+				76513D9519A30F0E0070E8E9 /* Vendor */,
 				76513D7119A30DE30070E8E9 /* AppDelegate.h */,
 				76513D7219A30DE30070E8E9 /* AppDelegate.m */,
+				76513D9119A30E680070E8E9 /* RootViewController.h */,
+				76513D9219A30E680070E8E9 /* RootViewController.m */,
+				76513D9A19A316BA0070E8E9 /* TestViewControllers */,
 				76513D7419A30DE30070E8E9 /* Images.xcassets */,
 				76513D6919A30DE30070E8E9 /* Supporting Files */,
 			);
@@ -142,6 +161,36 @@
 				76513D8419A30DE30070E8E9 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		76513D9519A30F0E0070E8E9 /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+				76513D9619A30F0E0070E8E9 /* ACSegmentedViewController */,
+			);
+			path = Vendor;
+			sourceTree = "<group>";
+		};
+		76513D9619A30F0E0070E8E9 /* ACSegmentedViewController */ = {
+			isa = PBXGroup;
+			children = (
+				76513D9719A30F1C0070E8E9 /* ACSegmentedViewController.h */,
+				76513D9819A30F1C0070E8E9 /* ACSegmentedViewController.m */,
+			);
+			path = ACSegmentedViewController;
+			sourceTree = "<group>";
+		};
+		76513D9A19A316BA0070E8E9 /* TestViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				76513D9B19A316CC0070E8E9 /* FirstViewController.h */,
+				76513D9C19A316CC0070E8E9 /* FirstViewController.m */,
+				76513D9E19A316D50070E8E9 /* SecondViewController.h */,
+				76513D9F19A316D50070E8E9 /* SecondViewController.m */,
+				76513DA119A316F80070E8E9 /* ThirdViewController.h */,
+				76513DA219A316F80070E8E9 /* ThirdViewController.m */,
+			);
+			name = TestViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -239,8 +288,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				76513DA019A316D50070E8E9 /* SecondViewController.m in Sources */,
 				76513D7319A30DE30070E8E9 /* AppDelegate.m in Sources */,
+				76513D9919A30F1C0070E8E9 /* ACSegmentedViewController.m in Sources */,
+				76513D9D19A316CC0070E8E9 /* FirstViewController.m in Sources */,
 				76513D6F19A30DE30070E8E9 /* main.m in Sources */,
+				76513D9319A30E680070E8E9 /* RootViewController.m in Sources */,
+				76513DA319A316F80070E8E9 /* ThirdViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -314,7 +368,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 			};
@@ -346,7 +400,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -360,6 +414,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ACSegmentedViewController/ACSegmentedViewController-Prefix.pch";
 				INFOPLIST_FILE = "ACSegmentedViewController/ACSegmentedViewController-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -373,6 +428,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ACSegmentedViewController/ACSegmentedViewController-Prefix.pch";
 				INFOPLIST_FILE = "ACSegmentedViewController/ACSegmentedViewController-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -437,6 +493,7 @@
 				76513D8D19A30DE30070E8E9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		76513D8E19A30DE30070E8E9 /* Build configuration list for PBXNativeTarget "ACSegmentedViewControllerTests" */ = {
 			isa = XCConfigurationList;
@@ -445,6 +502,7 @@
 				76513D9019A30DE30070E8E9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
